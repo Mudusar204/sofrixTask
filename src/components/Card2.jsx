@@ -2,7 +2,7 @@ import React from "react";
 
 const Card2 = () => {
   return (
-    <div className="card2 px-[30px] py-[70px] ">
+    <div className="card2 px-[30px] py-[70px] max-md:px-[20px] max-md:py-[35px]">
       <div className="bg-white flex justify-between items-center max-md:flex-col-reverse  rounded-[25px] h-[600px] max-md:h-[386px] w-full px-[70px] max-lg:px-[40px]">
         <div className="flex-1">
           <p className="text-[#127398] text-[30px] max-md:text-[20px] leading-[40px] max-md:leading-[20px] font-[500] ml-[50px] mr-[50px] max-md:ml-0 max-md:mr-0 max-md:mt-8 max-md:text-center">

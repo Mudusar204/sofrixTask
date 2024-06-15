@@ -2,7 +2,7 @@ import React from "react";
 
 const Card3 = () => {
   return (
-    <div className="card3 px-[30px] py-[70px] ">
+    <div className="card3 px-[30px] py-[70px] max-md:px-[20px] max-md:py-[35px]">
       <div className="bg-white flex justify-between items-center max-md:flex-col  rounded-[25px] h-[600px] max-md:h-[386px] w-full px-[70px] max-lg:px-[40px]">
         <div className="flex-1 relative  h-[500px]  max-md:w-[233px] max-md:h-[185px]">
           <img

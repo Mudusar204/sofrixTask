@@ -2,7 +2,7 @@ import React from "react";
 
 const Card4 = () => {
   return (
-    <div className="card4 px-[30px] py-[70px] ">
+    <div className="card4 px-[30px] py-[70px] max-md:px-[20px] max-md:py-[35px]">
       <div className="bg-white flex justify-between  items-center max-md:flex-col-reverse  rounded-[25px] h-[600px] max-md:h-[486px] w-full px-[80px] max-lg:px-[40px]">
         <div className="flex-1">
           <p className="text-[#127398] text-[30px] max-md:text-[20px] leading-[40px] font-[500] px-[50px] max-md:px-0     max-md:leading-[20px]   max-md:mt-12 max-md:text-center ">
@@ -13,7 +13,7 @@ const Card4 = () => {
             portfolio like a PRO.
           </p>
         </div>
-        <div className="md:card-right flex-1 h-[630px] w-[470px] max-md:w-[233px] max-md:h-[286px] max-md:mt-12 flex items-center justify-center">
+        <div className="card-right flex-1 h-[630px] w-[470px] max-md:w-[233px] max-md:h-[286px] max-md:mt-12 flex items-center justify-center">
           <div className="relative  h-[455px] w-[504px] flex flex-col  items-center max-md:h-full max-md:w-full">
             <p className="md:hidden  text-[14px] whitespace-nowrap  text-center mb-4">
               Introducing Guardian Angel 😇

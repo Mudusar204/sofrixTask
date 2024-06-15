@@ -2,40 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+.card1 {
+  background-image: url("/bg-card1.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.card2 {
+  background-image: url("/bg-card2.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.card3 {
+  background-image: url("/bg-card3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.card4 {
+  background-image: url("/bg-card4.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.card5 {
+  background-image: url("/bg-card5.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.card-left {
+  background-image: url("/bg-section4-card.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 
-.card1{
-    background-image: url("/bg-card1.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-.card2{
-    background-image: url("/bg-card2.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-.card3{
-    background-image: url("/bg-card3.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-.card4{
-    background-image: url("/bg-card4.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-.card5{
-    background-image: url("/bg-card5.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-.card-left{
-    background-image: url("/bg-section4-card.svg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+.card-right {
+  background-image: url("/bg-right-section3.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
-.card-right{
-    background-image: url("/bg-right-section3.svg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+@media screen and (max-width: 768px) {
+  .card-left {
+    background-image: none;
+  }
+  .card-right {
+    background-image: none;
+  }
 }

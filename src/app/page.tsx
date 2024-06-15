@@ -8,7 +8,11 @@ import Card5 from "../components/Card5";
 const Home = () => {
   return (
     <div>
-      <img className="w-full h-auto" src={"/faces.svg"} alt="home faces" />
+      <img
+        className="w-full h-auto mb-[-5px]"
+        src={"/faces.svg"}
+        alt="home faces"
+      />
       <section className="w-full h-auto bg-[#00ABE1] bg-opacity-1">
         <Card1 />
       </section>
